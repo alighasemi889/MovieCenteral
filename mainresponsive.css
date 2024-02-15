@@ -1,0 +1,54 @@
+/* responsive coddes of main website goes here */
+@media screen and (min-width:700px){
+    .conetnt__second{
+        position: absolute;
+        top: 50%;
+    }
+    .conetnt__third{
+        position: absolute;
+        top: 50%;
+    }
+    .conetnt__fourth{
+        position: absolute;
+        top: 40%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:700px){
+    .conetnt__fourth{
+        position: absolute;
+      top: 70%;
+    
+    }
+    .conetnt__third{
+        position: absolute;
+        top: 70%;
+    }
+    .conetnt__second{
+        position: absolute;
+        top: 70%;
+    }
+}
+@media screen and (max-width:541px){
+    .conetnt__second{
+        position: absolute;
+        top: 20%;
+    }
+}
+@media screen and (max-width:931px){
+    .img__sldier__sec{
+        display: flex;
+        flex-direction: column;
+    }
+    #slider__header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:570px){
+    .conetnt__second {
+        position: absolute;
+        top: 90%;
+        left: 87%;
+
+}
+}

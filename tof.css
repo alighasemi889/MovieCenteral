@@ -1,0 +1,45 @@
+.slider {
+    width: 100%;
+    height: 400px; /* Adjust this value to set the height of the slider */
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .slider .slide:nth-child(1) {
+    transform: translateX(0);
+  }
+  
+  .slider .slide:nth-child(2) {
+    transform: translateX(100%);
+  }
+  
+  /* Add more slide styles as needed */
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .slider {
+      height: 200px;
+    }
+  
+    .slide-text {
+      padding: 10px;
+    }
+  }
